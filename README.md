@@ -28,8 +28,11 @@ Installation:
 Create ".env" file with this:
 
 PAYPAL_CLIENT_ID=YOUR-SANDBOX-CLIENT-ID
+
 PAYPAL_CLIENT_SECRET=YOUR-SANDBOX-CLIENT-SECRET
 
 Run "npm install"
+
 Run "node index.js"
+
 To run as pm2 service: "pm2 start index.js --name paypal-api"
