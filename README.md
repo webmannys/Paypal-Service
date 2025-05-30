@@ -4,13 +4,13 @@ This service gets the following:
 ✅ It exposes endpoints that accept HTTP requests
 Example routes:
 
-GET /token → Get access token
+GET /paypal/token → Get access token
 
-POST /authorize → Create and authorize a PayPal order
+POST /paypal/authorize → Create and authorize a PayPal order
 
-POST /capture/:orderId → Capture a payment
+POST /paypal/capture/:orderId → Capture a payment
 
-GET /get-paypal-order-id?token=... → Look up an order ID from PayPal
+GET /paypal/order/:orderId → Look up an order ID from PayPal
 
 These routes are accessible over HTTP and return structured responses (usually JSON), which is exactly how an API behaves.
 
